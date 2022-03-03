@@ -11,7 +11,7 @@ public class Rocket {
     }
 
     private void checkName(String name) throws Exception{
-        if(name.isEmpty() || name == null) throw  new Exception("The hangar need a name");
+        if(name.isEmpty()) throw  new Exception("The hangar need a name");
     }
 
     public String getName() {
